@@ -1,0 +1,78 @@
+# ==============================================
+# Configurable Data Processing System - Test Config
+# ==============================================
+
+# --------------------------
+# Text Processor Configuration
+# --------------------------
+Processor.Type=Text
+
+# Case sensitivity (true/false)
+Text.CaseSensitive=true
+
+# Maximum line length (characters)
+Text.MaxLength=120
+
+# Allowed special characters
+Text.AllowedSpecialChars=!@#$%^&*
+
+
+# --------------------------
+# Numeric Processor Configuration
+# --------------------------
+# Processor.Type=Numeric
+
+# Decimal precision (digits)
+Numeric.Precision=4
+
+# Value range checking
+Numeric.MinValue=-1000
+Numeric.MaxValue=1000
+
+# Scientific notation threshold
+Numeric.ScientificNotationThreshold=1e6
+
+
+# --------------------------
+# Image Processor Configuration
+# --------------------------
+# Processor.Type=Image
+
+# Processing parameters
+Image.Threshold=0.75
+Image.MaxResolution=3840x2160
+
+# File formats (comma-separated)
+Image.SupportedFormats=jpg,png,bmp
+
+# Enable watermark
+Image.WatermarkEnabled=true
+
+
+# --------------------------
+# Audio Processor Configuration
+# --------------------------
+# Processor.Type=Audio
+
+# Audio quality settings
+Audio.SampleRate=44100
+Audio.BitDepth=16
+
+# Normalization level (-1 to 1)
+Audio.NormalizationLevel=0.9
+
+# Supported formats
+Audio.SupportedFormats=mp3,wav,flac
+
+
+# ========================
+# Common System Settings
+# ========================
+# Logging level (0-3)
+System.LogLevel=2
+
+# Maximum processing threads
+System.MaxThreads=8
+
+# Enable debug output (true/false)
+System.DebugMode=false

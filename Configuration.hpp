@@ -10,4 +10,5 @@ public:
     void loadFromFile(const string& filename);
     string get(const string& key) const;
     string trim(const std::string& str) const;
+    
 };

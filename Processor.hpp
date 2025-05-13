@@ -19,7 +19,8 @@ public:
 
 
 template <typename T>
-void processTypedCollection(Processor& processor, const std::vector<T>& data) {
+void processTypedCollection(Processor& processor, const std::vector<T>& data) 
+{
     for (const auto& item : data) {
         processor.process(std::to_string(item));
     }
