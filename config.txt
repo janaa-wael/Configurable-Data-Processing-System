@@ -8,7 +8,7 @@
 Processor.Type=Text
 
 # Case sensitivity (true/false)
-Text.CaseSensitive=true
+Text.CaseSensitive=false
 
 # Maximum line length (characters)
 Text.MaxLength=120

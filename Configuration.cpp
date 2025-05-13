@@ -46,6 +46,12 @@ string Configuration::get(const string& key) const
     return ""; // Return empty string if key not found
 }
 
+void Configuration::set(const string& key, const string& value)
+{
+    settings[key] = value;
+}
+
+
 string Configuration::trim(const string& str) const
 {
     size_t first = 0, last = str.size();

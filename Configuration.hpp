@@ -9,6 +9,7 @@ class Configuration {
 public:
     void loadFromFile(const string& filename);
     string get(const string& key) const;
+    void set(const string& key, const string& value);
     string trim(const std::string& str) const;
     
 };
