@@ -1,3 +1,6 @@
+
+#ifndef TEXTPROCESSOR_HPP
+#define TEXTPROCESSOR_HPP
 #include "Processor.hpp"
 
 class TextProcessor : public Processor {
@@ -10,3 +13,5 @@ public:
     // Optional: override batch processing if needed
     // void processBatch(const std::vector<std::string>& data) override;
 };
+
+#endif // TEXTPROCESSOR_HPP
